@@ -31,34 +31,34 @@ End for each
 
 
 If ($allSections.length<2)
-	$stats+=String:C10($allSections.length)+" section.\r"
+	$stats+=String:C10($allSections.length)+" セクション\r"
 Else 
-	$stats+=String:C10($allSections.length)+" sections.\r"
+	$stats+=String:C10($allSections.length)+" セクション\r"  //英語では複数形を表示するためにこの分岐が必要でした
 End if 
 
 If ($subSectionsFirst#0)
 	If ($subSectionsFirst<2)
-		$stats+=String:C10($subSectionsFirst)+" subsection (1st).\r"
+		$stats+=String:C10($subSectionsFirst)+" サブセクション (最初)\r"
 	Else 
-		$stats+=String:C10($subSectionsFirst)+" subsections (1st).\r"
+		$stats+=String:C10($subSectionsFirst)+" サブセクション (最初)\r"
 	End if 
 End if 
 
 If ($subSectionsLR#0)
 	If ($subSectionsLR<2)
-		$stats+=String:C10($subSectionsLR)+" subsection (l/r).\r"
+		$stats+=String:C10($subSectionsLR)+" サブセクション (左/右)\r"
 	Else 
-		$stats+=String:C10($subSectionsLR)+" subsections (l/r).\r"
+		$stats+=String:C10($subSectionsLR)+" サブセクション (左/右)\r"
 	End if 
 End if 
 
 If ($allPictures.length<2)
-	$stats+=String:C10($allPictures.length)+" picture.\r"
+	$stats+=String:C10($allPictures.length)+" 画像\r"
 Else 
-	$stats+=String:C10($allPictures.length)+" picture(s).\r"
+	$stats+=String:C10($allPictures.length)+" 画像\r"
 End if 
 If ($allTextBoxes.length<2)
-	$stats+=String:C10($allTextBoxes.length)+" text box.\r"
+	$stats+=String:C10($allTextBoxes.length)+" テキストボックス\r"
 Else 
-	$stats+=String:C10($allTextBoxes.length)+" text boxe(s).\r"
+	$stats+=String:C10($allTextBoxes.length)+" テキストボックス\r"
 End if 

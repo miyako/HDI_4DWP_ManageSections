@@ -21,11 +21,11 @@ Case of
 		$options:=New object:C1471
 		
 		$options.title:=""
-		$options.title:=$options.title+"manage sections and subsections?"  //+"\n"
+		$options.title:=$options.title+"セクションやサブセクションを管理するの？"  //+"\n"
 		//$options.title:=$options.title+"xxx"
 		
 		$options.blog:="blog.4d.com"
-		$options.info:="4D Write Pro feature"  //ex : "4D View Pro feature"
+		$options.info:="4D Write Pro 機能"  //ex : "4D View Pro feature"
 		
 		$options.minimumVersion:="2070"  // 2000 means 20.0   2070 means 20R7, 2001 means 20.1 (do not use !)
 		

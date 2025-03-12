@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "listScreen",
 	"rightMargin": 16,
 	"bottomMargin": 10,
@@ -82,7 +82,7 @@
 					"type": "input",
 					"top": 23,
 					"left": 24,
-					"width": 64,
+					"width": 31,
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[DOC:1]Order:4",
@@ -205,5 +205,17 @@
 				}
 			}
 		}
-	]
+	],
+	"geometryStamp": 7,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
 }

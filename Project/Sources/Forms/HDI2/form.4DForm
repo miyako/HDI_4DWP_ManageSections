@@ -59,7 +59,7 @@
 					"enterable": false,
 					"focusable": false,
 					"fontFamily": "Times New Roman",
-					"fontSize": 24,
+					"fontSize": 18,
 					"borderStyle": "none",
 					"fill": "transparent"
 				},
@@ -72,7 +72,7 @@
 					"height": 36,
 					"fontWeight": "bold",
 					"fontFamily": "Times New Roman",
-					"fontSize": 24
+					"fontSize": 20
 				}
 			}
 		},

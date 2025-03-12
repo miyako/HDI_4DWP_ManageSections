@@ -79,12 +79,12 @@ Case of
 				Case of 
 						
 					: (Form:C1466.license=4D View license:K44:4)
-						$maintext:="Sorry, this “How do I” (HDI) example demonstrates a 4D View Pro feature."
-						$subtext:="You must have a valid 4D View Pro license to continue."
+						$maintext:="この “How do I” (HDI) サンプルは 4D View Pro 機能のデモが含まれます。"
+						$subtext:="そのため、有効な 4D View Pro のライセンスが必要です。"
 						
 					: (Form:C1466.license=4D Write license:K44:2)
-						$maintext:="Sorry, this “How do I” (HDI) example demonstrates a 4D Write Pro feature."
-						$subtext:="You must have a valid 4D Write Pro license to continue."
+						$maintext:="この “How do I” (HDI) サンプルは 4D Write Pro 機能のデモが含まれます。"
+						$subtext:="そのため、有効な 4D Write Pro のライセンスが必要です。"
 						
 				End case 
 				

@@ -162,10 +162,10 @@
 				},
 				"txtTitle": {
 					"type": "text",
-					"top": 58,
+					"top": 70,
 					"left": 160,
 					"width": 544,
-					"height": 50,
+					"height": 22,
 					"stroke": "#212121",
 					"textAlign": "left",
 					"fontFamily": "System Font Regular",
@@ -217,7 +217,7 @@
 				},
 				"Button": {
 					"type": "button",
-					"text": "Demo",
+					"text": "スタート",
 					"top": 519,
 					"left": 612,
 					"width": 90,
@@ -262,7 +262,7 @@
 			"View 9": {}
 		}
 	},
-	"geometryStamp": 43,
+	"geometryStamp": 44,
 	"$4d": {
 		"version": "1",
 		"kind": "form"
